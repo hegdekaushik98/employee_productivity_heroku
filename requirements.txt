@@ -1,2 +1,2 @@
 streamlit==0.61.0
-cv2 == 4.5.2
+opencv == 4.5.2
