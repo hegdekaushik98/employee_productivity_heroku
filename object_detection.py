@@ -49,7 +49,9 @@ def detect_object(frame):
         cv2.rectangle(frame, (left, top - labelSize[1]), (left + labelSize[0], top + baseLine),
                       (255, 255, 255), cv2.FILLED)
         cv2.putText(frame, label, (left, top), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0))
+        print(label)
 
-    return frame, label
+    return frame
+
     # cv2.imshow('out', frame)
     # cv2.waitKey()
