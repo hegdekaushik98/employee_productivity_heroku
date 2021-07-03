@@ -20,7 +20,7 @@ def main():
         image = detect_object(img_array)
         
         st.image(image, width = 412)
-        st.write(f"Person is {label}")
+#         st.write(f"Person is {label}")
 
 def upload_image_ui():
     uploaded_image = st.file_uploader("Please upload an image file", type=["png", "jpg", "jpeg"])
